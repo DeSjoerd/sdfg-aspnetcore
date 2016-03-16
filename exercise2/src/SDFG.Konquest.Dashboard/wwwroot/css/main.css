@@ -1,0 +1,141 @@
+﻿/* Custom Stylesheet */
+
+.page-content {
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width:1025px) {
+    .mdl-layout--fixed-drawer > .mdl-layout__drawer {
+        transition: none;
+    }
+}
+
+#drawer .mdl-navigation__link .material-icons {
+    font-size: 24px;
+    margin-right: 32px;
+}
+
+#drawer .mdl-navigation__link .konquest-icon {
+    display: block;
+    float: left;
+    margin: -16px;
+    margin-right: 16px;
+    width: 56px;
+    height: 56px;
+    background-size: contain;
+}
+
+#drawer .mdl-layout-title {
+    height: 160px;
+}
+
+    #drawer .mdl-layout-title .mdl-layout-title__logo {
+        position: absolute;
+        bottom: 16px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+.mdl-layout__drawer .mdl-navigation__link.konquest-navigation__link--header,
+.mdl-layout__drawer .mdl-navigation__link.konquest-navigation__link--header:hover {
+    background: initial;
+    font-weight: 600;
+}
+
+.mdl-layout__drawer .mdl-navigation__link.mdl-navigation__link--current {
+    background-color: #2196F3;
+}
+
+    .mdl-layout__drawer .mdl-navigation__link.mdl-navigation__link--current:hover {
+        background-color: #1976D2;
+    }
+
+.konquest-drawer-separator {
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 8px 0;
+}
+
+.quest-cards {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .quest-cards .mdl-card {
+        width: 100%;
+    }
+
+.quest-title-img {
+    max-width: 400px;
+    width: 100%;
+}
+
+.konquest-icon--web {
+    background-image: url('../images/emblems/web_800.png');
+}
+
+.konquest-icon--mobility {
+    background-image: url('../images/emblems/mobility_800.png');
+}
+
+.konquest-icon--iot {
+    background-image: url('../images/emblems/iot_800.png');
+}
+
+.konquest-icon--api {
+    background-image: url('../images/emblems/api_800.png');
+}
+
+.konquest-icon--sitecore {
+    background-image: url('../images/emblems/sitecore_800.png');
+}
+
+.konquest-icon--sharepoint {
+    background-image: url('../images/emblems/sharepoint_800.png');
+}
+
+.mdl-card.card-image {
+    width: 100%;
+    height: 400px;
+}
+
+.card-image > .mdl-card__actions {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+    .card-image > .mdl-card__actions a {
+        color: white;
+    }
+
+.card-image-web.mdl-card {
+    background: url('/images/emblems/Web_800.png') center / cover;
+    background-color: rgb(52, 152, 219);
+}
+
+.card-image-sitecore.mdl-card {
+    background: url('/images/emblems/Sitecore_800.png') center / cover;
+    background-color: rgb(227, 40, 40);
+}
+
+.card-image-mobility.mdl-card {
+    background: url('/images/emblems/Mobility_800.png') center / cover;
+    background-color: #229651;
+}
+
+.card-image-api.mdl-card {
+    background: url('/images/emblems/API_800.png') center / cover;
+    background-color: #8e44ad;
+}
+
+.card-image-iot.mdl-card {
+    background: url('/images/emblems/IOT_800.png') center / cover;
+    background-color: #dd6913;
+}
+
+.card-image-sharepoint.mdl-card {
+    background: url('/images/emblems/Sharepoint_800.png') center / cover;
+    background-color: #0073c8;
+}

@@ -1,0 +1,25 @@
+﻿@model IEnumerable<SDFG.Konquest.Dashboard.Models.NavigationItem>
+
+<div id="drawer" class="mdl-layout__drawer">
+    <div class="mdl-layout-title mdl-color--blue-500 mdl-color-text--white">
+        <span class="mdl-layout-title__logo">Konquest</span>
+    </div>
+    <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="~/">Home</a>
+        <div class="konquest-drawer-separator"></div>
+        <p class="mdl-navigation__link konquest-navigation__link--header mdl-color-text--blue-500">Guilds</p>
+        @foreach (var item in Model)
+        {
+            var activeClass = item.IsActive ? "mdl-navigation__link--current" : null;
+
+            <a class="mdl-navigation__link @activeClass" href="@item.Url">
+                @if (item.Icon != null)
+                {
+                    <i class="mdl-color-text--blue-grey-400 konquest-icon konquest-icon--@item.Icon" role="presentation"></i>
+                }
+                @item.Name
+            </a>
+
+        }
+    </nav>
+</div>

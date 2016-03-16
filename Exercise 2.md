@@ -13,8 +13,8 @@ With this exercise you'll explore some of the new features in MVC 6.
  4. Check if the homepage works
  5. Add navigation with a new `DrawerViewComponent`
  	- A View is already located at `Views/Shared/Components/Drawer/Default.cshtml`
- 	- Use `new SDFG.Konquest.Dashboard.Services.NavigationService()` to get navigation items
- 6. Use injection in the `DrawerViewComponent` to inject `SDFG.Konquest.Dashboard.Services.INavigationService`
+ 	- Use `new SDFG.Konquest.Dashboard.Services.NavigationServiceStub()` to get navigation items
+ 6. Use injection in the `DrawerViewComponent` to inject `SDFG.Konquest.Dashboard.Services.INavigationService` with `SDFG.Konquest.Dashboard.Services.NavigationService` as implementation
 
 --------------
 ## Docs
