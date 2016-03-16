@@ -23,7 +23,7 @@ When the command is not recognized, install DNVM using the Powershell command
 
 * Open Visual Studio 2015 and navigate to the Team Explorer
 * Click ```Local Git Repositories``` and ```Clone```
-* Enter the GitHub URL ``` https://github.com/DeSjoerd/sdfg.git ``` and a local folder.
+* Enter the GitHub URL ``` https://github.com/DeSjoerd/sdfg-aspnetcore.git ``` and a local folder.
 * Hit ```Clone``` and double-click the new repository
 * Double-click the solution ```SDFG.BlankWebApp```
 
